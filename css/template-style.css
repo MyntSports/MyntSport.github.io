@@ -384,6 +384,11 @@ aside.aside-left {
 .text-white, .text-white *, .primary-color-white .text-primary, .primary-color-white .text-primary * {
   color: #fff !important;
 }
+
+.text-green{
+  color: #37a85f !important;
+}
+
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
   color: #28a5df !important;
 }
@@ -1562,19 +1567,19 @@ nav {
   display:none;
 }
 nav.fixed, .fixed nav {
-  background: #fff;
+  background: #454545;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
   padding: 0 2em;
 }
 nav.fixed .top-nav li a, .fixed nav .top-nav li a {
-  color: #444;  
+  color: #98ff98;  
 }
 nav.fixed .logo-white, .fixed nav .logo-white {
   display:none;
 }
 nav.fixed .logo-dark, .fixed nav .logo-dark {
   display:block;
-  width: 60px;
+  width: 40px;
 }  
 nav.fixed .left-menu, nav.fixed .right-menu {
     padding: 0;
@@ -1601,12 +1606,12 @@ nav.fixed .left-menu, nav.fixed .right-menu {
 }
 .logo img {
   margin: 0 auto;
-  width: 88px;
+  width: 150px;
   position: relative;
   top: 12px;
 }
 .top-nav li a {
-  color: #fff;
+  color: #98ff98;
   font-weight: 400;
   padding: 1.5rem;
   position: relative;
@@ -1660,7 +1665,7 @@ nav.fixed .left-menu, nav.fixed .right-menu {
 
 /* Menu dott color */
 .background-white-dott .top-nav > div > ul > li > a::before, .primary-color-white .background-primary-dott .top-nav > div > ul > li > a::before {background: #fff none repeat scroll 0 0;}
-.background-primary-dott .top-nav > div > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > div > ul > li > a::before {background: #28a5df none repeat scroll 0 0;} 
+.background-primary-dott .top-nav > div > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > div > ul > li > a::before {background: #37a85f none repeat scroll 0 0;} 
 .background-dark-dott .top-nav > div > ul > li > a::before, .primary-color-dark .background-primary-dott .top-nav > div > ul > li > a::before {background: #434343 none repeat scroll 0 0;}
 
 /* Menu font color */
