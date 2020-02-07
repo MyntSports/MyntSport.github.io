@@ -1537,7 +1537,7 @@ hr.break.background-white, .primary-color-white hr.break-small.background-primar
 hr.break.background-primary, .primary-color-primary hr.break.background-primary {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #28a5df;
+  border-top: 2px dotted #37a85f;
 }
 hr.break.background-dark, .primary-color-dark hr.break.background-primary {
   background: none!important;
