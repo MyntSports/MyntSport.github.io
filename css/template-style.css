@@ -1585,7 +1585,7 @@ nav.fixed .left-menu, nav.fixed .right-menu {
     padding: 0;
 }
 .background-transparent {
-  background: none;
+  background: #454545;
 }  
 .custom-button {
   margin-top: 200px;
@@ -1784,8 +1784,8 @@ a.tab-label.active-btn {
     height: 60px;
   }
   .logo img {
-    max-width: 172px;
-    max-height: 40px;
+    max-width: 200px;
+    max-height: 200px;
     margin: 0 auto; 
     width: auto;
     top: 0;
@@ -1852,5 +1852,16 @@ a.tab-label.active-btn {
 @media screen and (max-width: 768px) {
   .background-image {
     background-position: center;
+  }
+} 
+
+
+.cur-box {
+    width: 60%;
+}
+
+@media screen and (max-width: 1200px) {
+  .cur-box {
+    width: 95%;
   }
 } 
