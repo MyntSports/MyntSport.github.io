@@ -1105,8 +1105,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
         height: 60px;
     }
     .logo img {
-      max-width: 172px;
-      max-height: 40px;
+      
       margin: 0 auto; 
       width: auto;
     }
@@ -1860,8 +1859,33 @@ a.tab-label.active-btn {
     width: 60%;
 }
 
+.email-box {
+    width: 400px;
+}
+
+.sil-home{
+    width: 650px; 
+    position: absolute; 
+    bottom: -20px; 
+    left: 50%; 
+    margin-left:-325px
+  }
+
 @media screen and (max-width: 1200px) {
   .cur-box {
     width: 95%;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+  .email-box {
+    width: 85%;
+  }
+  .sil-home{
+    width: 400px; 
+    position: absolute; 
+    bottom: -20px; 
+    left: 50%; 
+    margin-left:-200px
   }
 } 
