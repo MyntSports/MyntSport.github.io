@@ -1584,7 +1584,7 @@ nav.fixed .left-menu, nav.fixed .right-menu {
     padding: 0;
 }
 .background-transparent {
-  background: #454545;
+  background: none;
 }  
 .custom-button {
   margin-top: 200px;
@@ -1889,3 +1889,31 @@ a.tab-label.active-btn {
     margin-left:-200px
   }
 } 
+.background-transparent {
+  background: none;
+}  
+
+@media screen and (max-width: 768px) {
+  .background-transparent {
+    background: #454545;
+  }  
+} 
+
+.cur-link{
+  margin-top: 10px;
+  color: #ddd !important;
+  align-content: center; 
+  padding: 2px; 
+  border-radius: 5px;
+  box-shadow: -3px -3px 3px 0 #555555, 3px 3px 3px 0 rgba(0,0,0,0.3);
+}
+
+.cur-link:hover{
+  color: #aaa !important;
+  font-size: 14.2px;
+  align-content: center; 
+  padding: 4px; 
+  padding-top: 1px
+  border-radius: 5px;
+  box-shadow: -3px -3px 3px 0 rgba(0,0,0,0.3), 3px 3px 3px 0 #555555;
+}
