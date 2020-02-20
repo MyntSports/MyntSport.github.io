@@ -1,0 +1,56 @@
+
+<div style="text-align: center">
+  <button  class="cur-btn" id="SECTION-btn" onclick="showSECTION()" style=" align-content: center; margin-top: 50px;margin-bottom: 5px; font-size: 48px; color:#454545; border: none; background: none;" >SECTION</button>
+</div>
+
+<div class="cur-box" id="SECTION" style="display:none; border-radius: 10px; background-color: #454545; margin: auto; margin-bottom: 50px; padding: 10px;">
+<!-- Basic Equipment -->
+  <div>
+    <h2  style="color:#37a85f; margin-bottom: 0px; font-weight: bold">Heading 1</h2>
+    <p style="color:#fff">
+      paragraph explaining the section
+    </p>
+    <div style="margin-left: 75px">
+      <h3 style="color:#98ff98; margin-bottom: 0px; font-weight: bold">SubHeading 1</h3>
+      <p style="color:#fff">
+      paragraph explaining the section
+      </p>
+      <p style="margin-left: 40px; color:#fff; font-weight: bold">Sub-subheading 1</p>
+      <p style="color:#fff; margin-left: 40px">
+      paragraph explaining the section
+      </p>
+      <div style="text-align: center; margin-left: -75px; margin-top: 5px; margin-bottom: 5px;">
+        <a href="LINK" class="cur-link"
+        target="_blank">link title</a>
+      </div>
+      <p style="color:#fff; margin-left: 40px">
+      paragraph explaining the section
+      </p>
+      <div style="text-align: center; margin-left: -75px; margin-top: 5px; margin-bottom: 5px;">
+        <a href="LINK" class="cur-link" target="_blank">Link Title</a>
+      </div>
+      <p style="margin-left: 40px; color:#fff; font-weight: bold">Sub-subheading 2</p>
+      <p style="color:#fff; margin-left: 40px">
+      paragraph explaining the section
+      </p>
+      <div style="text-align: center; margin-left: -75px; margin-top: 5px; margin-bottom: 5px;">
+        <a href="LINK" class="cur-link" target="_blank">link title</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+function showSECTION() {
+  var x = document.getElementById("SECTION");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("SECTION-btn").classList.add("cur-btn-on");
+  } else {
+    x.style.display = "none";
+    document.getElementById("section-btn").classList.remove("cur-btn-on");
+  }
+} 
+</script>
