@@ -1919,12 +1919,19 @@ a.tab-label.active-btn {
   box-shadow: -3px -3px 3px 0 rgba(0,0,0,0.3), 3px 3px 3px 0 #555555;
 }
 
+.buttons{
+  display: inline-block;
+  width: 450px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .cur-btn{
-  margin: 20px !important;
+  margin: 10px !important;
   color: #777777 !important;
   align-content: center; 
   padding: 10px; 
-  font-size: 50px !important;
+  font-size: 15px !important;
   border-radius: 5px;
   box-shadow: -5px -5px 5px 0 rgb(250,250,250), 5px 5px 5px 0 rgba(50,50,50,0.3);
   margin-bottom: 10px !important;
@@ -1932,7 +1939,7 @@ a.tab-label.active-btn {
 
 .cur-btn:hover{
   color: #777777 !important;
-  font-size: 48px !important;
+  font-size: 14px !important;
   align-content: center; 
   padding-left: 14px; 
   padding-right: 14px;
@@ -1947,7 +1954,7 @@ a.tab-label.active-btn {
 
 .cur-btn-on{
   color: #777777 !important;
-  font-size: 48px !important;
+  font-size: 14px !important;
   align-content: center; 
   padding-left: 14px; 
   padding-right: 14px;
